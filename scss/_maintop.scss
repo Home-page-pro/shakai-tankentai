@@ -82,6 +82,10 @@
         transform: translate(0, -50%);
         text-decoration: none;
         padding-top: 50px;
+
+        @include sp {
+            bottom: 50px;
+        }
     }
 
     a span {
@@ -96,6 +100,13 @@
         box-sizing: border-box;
         background-color: rgba(254,183,43,0.7);
         box-shadow: 0px 15px 8px -2px rgba(0,0,0,0.6);
+        
+        @include sp {
+            width: 70px;
+            height: 70px;
+            margin-left: -35px;
+            border: 2px solid #ffffff;
+        }
     }
     
     a span:hover {
@@ -115,6 +126,12 @@
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
         box-sizing: border-box;
+        
+        @include sp {
+            border-left: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            
+        }
     }
     a span::before {
         position: absolute;
@@ -130,6 +147,13 @@
         -webkit-animation: sdb 3s infinite;
         animation: sdb 3s infinite;
         box-sizing: border-box;
+        
+        @include sp {
+            width: 68px;
+            height: 68px;
+            top: -1px;
+            left: -1px;
+        }
     }
 
     @-webkit-keyframes sdb {
