@@ -221,7 +221,7 @@ body {
 
 #maintop .maintop-box h1 {
   font-size: 8.5rem;
-  font-weight: bold;
+  font-weight: 800;
   color: #fff4b0;
   letter-spacing: 0.9rem;
   margin-bottom: 50px;
@@ -246,6 +246,7 @@ body {
 @media (max-width: 600px) {
   #maintop .maintop-box h1 {
     font-size: 4.5rem;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3";
   }
 }
 
