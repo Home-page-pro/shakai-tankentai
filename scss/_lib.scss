@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*----------------------*/ 
+/*    メディアクエリ     */ 
+/*----------------------*/ 
+
+
+@mixin tb {
+    @media (max-width: 1100px) {
+    @content;
+    }
+}
+
+@mixin sp {
+    @media (max-width: 600px) {
+    @content;
+    }
+}
+
+/*----------------------*/ 
+/*     色のスタイル     */ 
+/*----------------------*/ 
+
+$ywl: #fff4b0;
+$ywd: #feb72b;
+$grl: #899857;
+$grd: #527318;
+$br: #3C3530;
+
+/*----------------------*/ 
+/*    全体のスタイル     */ 
+/*----------------------*/ 
+
+body {
+    -webkit-animation: fadeIn 1.5s ease 0s 1 normal;
+    animation: fadeIn 1.5s ease 0s 1 normal;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+    opacity: 0
+    }
+
+    100% {
+    opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+    opacity: 0
+    }
+
+    100% {
+    opacity: 1
+    }
+}
+
+.wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+}
