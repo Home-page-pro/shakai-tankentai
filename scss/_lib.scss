@@ -28,12 +28,23 @@ $grd: #527318;
 $br: #3C3530;
 
 /*----------------------*/ 
+/*        mixin         */ 
+/*----------------------*/ 
+
+@mixin  box($bgc) {
+    text-align: center;   
+    padding: 100px 0;
+    background-color: $bgc;
+}
+
+/*----------------------*/ 
 /*    全体のスタイル     */ 
 /*----------------------*/ 
 
 body {
     -webkit-animation: fadeIn 1.5s ease 0s 1 normal;
     animation: fadeIn 1.5s ease 0s 1 normal;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,sans-serif;
 }
 
 
