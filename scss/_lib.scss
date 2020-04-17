@@ -35,6 +35,14 @@ $br: #3C3530;
     text-align: center;   
     padding: 100px 0;
     background-color: $bgc;
+    
+    @include tb {
+        padding: 50px 0;
+    }
+
+    @include sp {
+        padding: 30px 0;
+    }
 }
 
 @mixin sub-title($col) {
@@ -48,6 +56,20 @@ $br: #3C3530;
     text-indent: 40px;
     display: inline-block;
     border-bottom: 1px solid $col;
+    
+    @include tb {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    @include sp {
+        font-size: 2.5rem;
+        letter-spacing: 20px;
+        text-indent: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+
+    }
 }
 
 @mixin title($color) {
@@ -58,8 +80,20 @@ $br: #3C3530;
     letter-spacing: 20px;
     text-indent: 20px;
     color: $color;
-}
     
+    @include tb {
+        font-size: 1.4rem;
+        letter-spacing: 10px;
+        text-indent: 10px;
+    }
+    
+    @include sp {
+        font-size: 1rem;
+        letter-spacing: 5px;
+        text-indent: 10px;
+    }
+}
+
 
 /*----------------------*/ 
 /*    全体のスタイル     */ 
