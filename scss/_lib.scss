@@ -55,6 +55,7 @@ $br: #3C3530;
     letter-spacing: 40px;
     text-indent: 40px;
     display: inline-block;
+    border-bottom: 1px solid $col;
     
     @include tb {
         font-size: 3rem;
