@@ -1,4 +1,13 @@
 #about {
     @include box( $ywd);
 
+    .about-title {
+        p {
+            @include sub-title(#000);
+        }
+
+        h1 {
+            @include title(#000);
+        }
+    }
 }

@@ -1,4 +1,13 @@
 #before {
-    @include box( $grd);
+    @include box( $grl);
 
+        .before-title {
+        p {
+            @include sub-title(#fff);
+        }
+
+        h1 {
+            @include title(#fff);
+        }
+    }
 }
