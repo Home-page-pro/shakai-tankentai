@@ -13,7 +13,15 @@
 
     .about-box {
         margin-bottom: 90px;
-        
+
+        @include tb {
+            margin-bottom: 60px;
+        }
+
+        @include sp {
+            margin-bottom: 30px;
+        }
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -22,9 +30,17 @@
             font-size: 2.5rem;
             display: inline-block;
             margin-bottom: 40px;
-            line-height: 2rem;
                     
-        }
+            @include tb {
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+            @include sp {
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+        }       
 
         .about-box-pra {
             font-size: 1.5rem;
@@ -32,6 +48,16 @@
 
             &:last-child {
                 margin-bottom: 0;
+            }
+
+            @include tb {
+                font-size: 1rem;
+                margin-bottom: 15px;
+            }
+
+            @include sp {
+                font-size: 0.5rem;
+                margin-bottom: 10px;
             }
         }
     }

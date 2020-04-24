@@ -85,12 +85,14 @@ $br: #3C3530;
         font-size: 1.4rem;
         letter-spacing: 10px;
         text-indent: 10px;
+        margin-bottom: 80px;
     }
     
     @include sp {
         font-size: 1rem;
         letter-spacing: 5px;
         text-indent: 10px;
+        margin-bottom: 40px;
     }
 }
 
@@ -134,4 +136,20 @@ body {
     margin: 0 auto;
     letter-spacing: 3px;
     line-height: 60px;
+
+    @include tb {
+        line-height: 40px;
+    }
+
+    @include sp {
+        line-height: 20px;
+    }
 }
+
+// @include tb {
+
+// }
+
+// @include sp {
+
+// }
