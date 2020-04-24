@@ -169,7 +169,10 @@ body {
 
 .wrap {
   max-width: 1170px;
+  width: 80%;
   margin: 0 auto;
+  letter-spacing: 3px;
+  line-height: 60px;
 }
 
 #particles-js {
@@ -427,7 +430,6 @@ body {
   text-align: center;
   padding: 100px 0;
   background-color: #feb72b;
-  height: 1000px;
 }
 
 @media (max-width: 1100px) {
@@ -476,7 +478,7 @@ body {
   text-align: center;
   font-size: 1.8rem;
   font-weight: normal;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
   letter-spacing: 20px;
   text-indent: 20px;
   color: #000;
@@ -496,6 +498,30 @@ body {
     letter-spacing: 5px;
     text-indent: 10px;
   }
+}
+
+#about .about-box {
+  margin-bottom: 90px;
+}
+
+#about .about-box:last-child {
+  margin-bottom: 0;
+}
+
+#about .about-box .about-box-title {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-bottom: 40px;
+  line-height: 2rem;
+}
+
+#about .about-box .about-box-pra {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#about .about-box .about-box-pra:last-child {
+  margin-bottom: 0;
 }
 
 #news {
@@ -550,7 +576,7 @@ body {
   text-align: center;
   font-size: 1.8rem;
   font-weight: normal;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
   letter-spacing: 20px;
   text-indent: 20px;
   color: #000;
@@ -624,7 +650,7 @@ body {
   text-align: center;
   font-size: 1.8rem;
   font-weight: normal;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
   letter-spacing: 20px;
   text-indent: 20px;
   color: #fff;
@@ -640,6 +666,80 @@ body {
 
 @media (max-width: 600px) {
   #before .before-title h1 {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-indent: 10px;
+  }
+}
+
+#form {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #527318;
+}
+
+@media (max-width: 1100px) {
+  #form {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #form {
+    padding: 30px 0;
+  }
+}
+
+#form .form-title p {
+  color: #fff;
+  font-size: 5rem;
+  display: block;
+  font-family: 'Poiret One', cursive;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  letter-spacing: 40px;
+  text-indent: 40px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 1100px) {
+  #form .form-title p {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #form .form-title p {
+    font-size: 2.5rem;
+    letter-spacing: 20px;
+    text-indent: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+#form .form-title h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 120px;
+  letter-spacing: 20px;
+  text-indent: 20px;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  #form .form-title h1 {
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+    text-indent: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #form .form-title h1 {
     font-size: 1rem;
     letter-spacing: 5px;
     text-indent: 10px;

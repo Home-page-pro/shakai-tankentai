@@ -1,0 +1,13 @@
+#form {
+    @include box( $grd);
+
+    .form-title {
+        p {
+            @include sub-title(#fff);
+        }
+
+        h1 {
+            @include title(#fff);
+        }
+    }
+}
