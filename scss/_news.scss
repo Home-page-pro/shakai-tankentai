@@ -36,10 +36,12 @@
         .news-box {
             display: inline-block;
             width: 45%;
+            height: auto;   
             margin-bottom: 60px;
-            box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 7git px 4px 7px 0px rgba(0, 0, 0, 0.3);
             -webkit-transition: all .3s;
             transition: all .3s;
+            // position: relative;
 
             &:hover {
                 -webkit-transform: translateY(-10px);
@@ -54,6 +56,11 @@
             img {
                 width: 100%;
                 height: 100%;
+                // position: absolute;
+                // top: 0;
+                // left: 0;
+                vertical-align:bottom;
+                display: inline-block;
             }
         } 
     }
