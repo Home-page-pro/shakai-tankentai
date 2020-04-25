@@ -172,6 +172,7 @@ body {
   width: 80%;
   margin: 0 auto;
   letter-spacing: 3px;
+  text-indent: 3px;
   line-height: 60px;
 }
 
@@ -542,7 +543,7 @@ body {
 
 @media (max-width: 1100px) {
   #about .about-box .about-box-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
   }
 }
@@ -802,6 +803,37 @@ body {
     letter-spacing: 5px;
     text-indent: 10px;
     margin-bottom: 40px;
+  }
+}
+
+#form .form-pra {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1100px) {
+  #form .form-pra {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #form .form-pra {
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+#form iframe {
+  width: 600px;
+  height: 880px;
+}
+
+@media (max-width: 600px) {
+  #form iframe {
+    width: 90vw;
   }
 }
 

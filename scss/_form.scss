@@ -1,0 +1,39 @@
+#form {
+    @include box( $grd);
+
+    .form-title {
+        p {
+            @include sub-title(#fff);
+        }
+
+        h1 {
+            @include title(#fff);
+        }
+    }
+
+    .form-pra {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+
+        @include tb {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        @include sp {
+            font-size: 0.5rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    iframe {
+        width: 600px;
+        height: 880px;
+
+        @include sp {
+            width: 90vw;
+        
+        }
+    }
+}
