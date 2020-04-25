@@ -15,6 +15,8 @@
         font-size: 1.5rem;
         margin-bottom: 60px;
         letter-spacing: 5px;
+        text-indent: 5px;
+
 
         @include tb {
             font-size: 1rem;
@@ -38,7 +40,7 @@
             width: 45%;
             height: auto;   
             margin-bottom: 60px;
-            box-shadow: 7git px 4px 7px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 7px 4px 7px 0px rgba(0, 0, 0, 0.3);
             -webkit-transition: all .3s;
             transition: all .3s;
             // position: relative;
