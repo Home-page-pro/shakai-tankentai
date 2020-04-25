@@ -359,6 +359,7 @@ body {
 
 #maintop a span::after {
   position: absolute;
+  z-index: 2;
   top: 50%;
   left: 50%;
   content: '';
@@ -382,6 +383,7 @@ body {
 
 #maintop a span::before {
   position: absolute;
+  z-index: 2;
   top: -3px;
   left: -4px;
   z-index: -1;
