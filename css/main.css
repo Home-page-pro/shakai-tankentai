@@ -484,8 +484,8 @@ body {
 @media (max-width: 600px) {
   #about .about-title p {
     font-size: 2.5rem;
-    letter-spacing: 18px;
-    text-indent: 18px;
+    letter-spacing: 15px;
+    text-indent: 15px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
@@ -623,8 +623,8 @@ body {
 @media (max-width: 600px) {
   #news .news-title p {
     font-size: 2.5rem;
-    letter-spacing: 18px;
-    text-indent: 18px;
+    letter-spacing: 15px;
+    text-indent: 15px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
@@ -699,8 +699,8 @@ body {
 @media (max-width: 600px) {
   #before .before-title p {
     font-size: 2.5rem;
-    letter-spacing: 18px;
-    text-indent: 18px;
+    letter-spacing: 15px;
+    text-indent: 15px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
@@ -747,6 +747,18 @@ body {
   color: #fff;
 }
 
+@media (max-width: 1100px) {
+  #before .before-table .before-table-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #before .before-table .before-table-title {
+    font-size: 1rem;
+  }
+}
+
 #before .before-table table {
   width: 100%;
   border-collapse: collapse;
@@ -755,6 +767,18 @@ body {
 #before .before-table table tr {
   border-bottom: solid 2px white;
   font-size: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+  #before .before-table table tr {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #before .before-table table tr {
+    font-size: 0.5rem;
+  }
 }
 
 #before .before-table table tr:last-child {
@@ -833,8 +857,8 @@ body {
 @media (max-width: 600px) {
   #form .form-title p {
     font-size: 2.5rem;
-    letter-spacing: 18px;
-    text-indent: 18px;
+    letter-spacing: 15px;
+    text-indent: 15px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
