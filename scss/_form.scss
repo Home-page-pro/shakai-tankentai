@@ -30,6 +30,7 @@
     iframe {
         width: 600px;
         height: 880px;
+        margin-bottom: 0;
 
         @include sp {
             width: 100vw;

@@ -37,6 +37,7 @@
         
         .maintop-img {
             position: relative;
+            z-index: 3;
             
             img {
                 box-shadow: 0px 15px 8px -2px rgba(0,0,0,0.4);
@@ -86,6 +87,7 @@
 
     a span {
         position: absolute;
+        z-index: 2;
         top: 0;
         left: 50%;
         width: 100px;

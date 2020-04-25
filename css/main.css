@@ -272,6 +272,7 @@ body {
 
 #maintop .maintop-box .maintop-img {
   position: relative;
+  z-index: 3;
 }
 
 #maintop .maintop-box .maintop-img img {
@@ -328,6 +329,7 @@ body {
 
 #maintop a span {
   position: absolute;
+  z-index: 2;
   top: 0;
   left: 50%;
   width: 100px;
@@ -829,6 +831,7 @@ body {
 #form iframe {
   width: 600px;
   height: 880px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 600px) {
