@@ -833,7 +833,7 @@ body {
 
 @media (max-width: 600px) {
   #form iframe {
-    width: 90vw;
+    width: 100vw;
   }
 }
 
@@ -844,5 +844,12 @@ footer {
   line-height: 70px;
   color: #fff4b0;
   letter-spacing: 5px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    letter-spacing: 1px;
+    font-size: 0.2rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

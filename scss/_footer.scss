@@ -5,5 +5,10 @@ footer {
     line-height: 70px;
     color: $ywl;
     letter-spacing: 5px;
+
+    @include sp {
+        letter-spacing: 1px;
+        font-size: 0.2rem;
+    }
 }
 
