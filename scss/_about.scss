@@ -60,5 +60,133 @@
                 margin-bottom: 10px;
             }
         }
+
+        .sns-title {
+            margin-bottom: 80px;
+
+            @include tb {
+                margin-bottom: 40px;
+            }
+
+            @include sp {
+                margin-bottom: 20px;
+            }
+        }
+
+        .about-box-btn {
+            display: flex;
+            justify-content: space-between;
+
+            @include tb {
+                flex-direction: column;
+            }
+
+            .flowbtn11{
+                font-family:'Verdana',sans-serif;	
+                border-radius:4px;
+                position:relative;
+                display:inline-block;
+                width:30%;
+                font-size:25px;
+                color:#fff!important;
+                text-decoration:none;
+                margin:0 auto;
+                font-family: 'Righteous', cursive;
+                box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.3);
+                
+                @include tb {
+                    width: 400px;       
+                    margin-bottom: 30px;
+                }
+                
+                @include sp {
+                    width: 100%;
+                    font-size: 19px;   
+                    height: 30px;
+                    margin-bottom: 15px;
+
+                    i {
+                        line-height: 30px;
+                    }
+                }
+
+            }
+            
+
+            /* Twitter */
+            .fl_tw1{
+                background:#55acee;
+            }
+
+            /* Instagramアイコン位置 */
+            .insta_btn11 .fa-instagram{
+                position:relative;
+                z-index:1;	
+            }
+
+            /* Instagram紫グラデ背景色 */
+            .insta_btn11{
+                background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+                background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+                overflow:hidden;
+            }
+
+            /* Instagramオレンジグラデ背景色 */
+            .insta_btn11:before{
+                content: '';
+                position:absolute;
+                top:17px;
+                left:-75px;
+                width:100%;
+                height:100%;
+                background:-webkit-radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 45%, rgba(255, 88, 96, 0) 80%);
+                background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+            }
+
+            /* LINE */
+            .fl_li1{
+                background:#00c300;
+            }
+
+            /* アイコンボタンホバー時 */
+            .flowbtn11:hover span{
+                -webkit-transform: rotateX(360deg);
+                -ms-transform: rotateX(360deg);
+                transform: rotateX(360deg);
+                text-decoration:none;
+            }
+
+            /* ボタン内テキスト調整 */
+            .flowbtn11 span{
+                font-size:20px;	
+                position:relative;
+                left:8px;
+                bottom:2px;
+                transition:.6s;	
+                display:inline-block;
+
+                @include sp {
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+            }
+
+            /* ulタグの内側余白を０にする */
+            ul.snsbtniti2{
+                padding:0!important;
+            }
+
+            /* アイコンボタンの位置調整 */
+            .snsbtniti2{
+                display:flex;
+                flex-flow:row wrap;
+            }
+
+            /* アイコンボタン同士の余白調整 */
+            .snsbtniti2 li{
+                flex:0 0 48%;
+                text-align:center!important ;
+            }
+        }
     }
 }
