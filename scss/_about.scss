@@ -30,6 +30,7 @@
             font-size: 2.5rem;
             display: inline-block;
             margin-bottom: 40px;
+            position: relative;
                     
             @include tb {
                 font-size: 1.5rem;
@@ -40,6 +41,49 @@
                 font-size: 1rem;
                 margin-bottom: 10px;
             }
+
+            &:before, &:after { 
+                content:'';
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                display: inline-block;
+                
+                @include tb {
+                    width: 25px;
+                    height: 25px;
+                }
+                
+                @include sp {
+                    width: 10px;
+                    height: 10px;
+
+                }
+            }
+
+            &:before {
+                border-left: solid 1px #000;
+                border-top: solid 1px #000;
+                top:-5px;
+                left: -30px;
+                
+                @include sp {
+                    left: -15px;
+                }
+
+            }
+
+            &:after {
+                border-right: solid 1px #000;
+                border-bottom: solid 1px #000;
+                bottom: -0px;
+                right: -30px;
+
+                @include sp {
+                    right: -15px;
+                }
+
+            }
         }       
 
         .about-box-pra {
@@ -47,7 +91,7 @@
             margin-bottom: 20px;
 
             span {
-                border-bottom: 4px solid #FF0066;
+                background: linear-gradient(transparent 70%, #FFFF11 70%);
             }
 
             &:last-child {
