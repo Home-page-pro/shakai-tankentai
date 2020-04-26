@@ -46,6 +46,10 @@
             font-size: 1.5rem;
             margin-bottom: 20px;
 
+            span {
+                border-bottom: 5px solid #FF0066;
+            }
+
             &:last-child {
                 margin-bottom: 0;
             }
