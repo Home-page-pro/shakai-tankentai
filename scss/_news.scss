@@ -25,22 +25,25 @@
         width:  100%;
         height: 60px;
         box-shadow: 7px 4px 7px 0px rgba(0, 0, 0, 0.3);
-        background-color: $grd;
+        background-color: $grl;
         color: #fff;
         font-size: 2rem;
         line-height: 60px;
+        border-left: 8px solid $grd;
         
         @include tb {
             top: -60px;
             height: 50px;
             line-height: 50px;
+            border-left: 5px solid $grd;
         }
-
+        
         @include sp {
             top: -25px;
             height: 20px;
             line-height: 20px;
             font-size: 0.9rem;
+            border-left: 3px solid $grd;
         }
 
     }   
@@ -81,12 +84,12 @@
 
         @include tb {
             font-size: 1rem;
-            margin-bottom: 120px;
+            margin-bottom: 150px;
         }
 
-        @include tb {
+        @include sp {
             font-size: 0.5rem;
-            margin-bottom: 100px;
+            margin-bottom: 60px;
         }
         
     }
